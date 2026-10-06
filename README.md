@@ -9,7 +9,9 @@ De momento puedes encontrar los siguientes proyectos:
 
 | Proyecto | Tipo | Descripción | Dificultad | Estado |
 |----------|------|-------------|------------|--------|
-| [Semáforo](./Semáforo) | Control | Controla un semáforo utilizando Arduino y LEDs. | Fácil | En progreso |
+| [Semáforo](./Semáforo) | Control | Controla un semáforo utilizando Arduino y LEDs. | Fácil | Completado |
+| [Medidor de resistencias](./Medidor-Resistencias) | Instrumentación | Mide el valor de resistencias desconocidas utilizando un divisor de tensión. | Media | Completado |
+| [Belén Navideño](./Belén-Navideño) | Ocio | Crea elementos de un Belén Navideño con luces, sonido y movimiento utilizando Arduino. | Media | En progreso |
 | [Cerradura inteligente](./Cerradura-inteligente) | Seguridad | Sistema de acceso con doble factor de autenticación (RFID + PIN). | Media | En progreso |
 | [Alarma antirrobo](./Alarma-antirrobo) | Seguridad | Sistema de alarma volumétrica y perimetral con sensores y zumbador. | Media | En progreso |
 | [Detector de incendios](./Detector-incendios) | Seguridad | Sistema de detección y alarma de incendios con sensor de llama. | Media | En progreso |

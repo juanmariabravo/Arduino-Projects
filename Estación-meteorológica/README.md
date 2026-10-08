@@ -203,6 +203,10 @@ float obtenerTemperatura(int x) { // mapea el valor del potenciómetro (0-1023) 
 
 Aunque en este ejemlpo simulado, el servo representa un abanico como solución al aumento de temperatura por encima dela deseada, en una aplicación real, se podría utilizar un módulo de relé para activar un ventilador real cuando la temperatura supere el umbral deseado. Otra opción sería utilizar un sistema de calefacción si la temperatura cae por debajo del valor deseado. La estación meteorológica podría integrarse en un sistema domótico más amplio, permitiendo el control de la climatización del hogar de manera automática según las lecturas de los sensores.
 
+## Implementación simplificada y de bajo consumo
+
+Para aquellos que deseen una versión más sencilla y eficiente en términos de consumo energético, se proporciona el [código de una estación meteorológica simplificada](./estacion_simple.ino) que solo utiliza el sensor DHT11, LM35 y el LDR, sin la funcionalidad del servo motor ni del LED RGB. Esta versión está por defecto durmiendo y se despierta cuando se presiona un botón configurado como PULL_UP, que despierta la estación y realiza y muestra una lectura.
+
 ## Referencias
 
 https://www.geekfactory.mx/tutoriales-arduino/estacion-meteorologica-con-arduino/?srsltid=AU7gw4WoSolWnTiX5mxsAjo05Mda20xQ46jiN_uWq5SwccmrMgsKnjmw
@@ -220,3 +224,9 @@ https://naylampmechatronics.com/blog/34_tutorial-lcd-conectando-tu-arduino-a-un-
 https://maxpromer.github.io/LCD-Character-Creator/
 
 https://naylampmechatronics.com/blog/35_tutorial-lcd-con-i2c-controla-un-lcd-con-solo-dos-pines.html
+
+### Versión de bajo consumo
+
+https://github.com/rocketscream/Low-Power
+
+https://www.youtube.com/watch?v=KnkPqoE3ceg

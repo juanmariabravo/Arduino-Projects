@@ -32,6 +32,7 @@ El objetivo principal de este proyecto es la implementación de 3 sistemas indep
 | 12 | Campana sobre campana | 1 vuelta | 58.3s | Villancicos .ino/Campana_sobre_campana_one_voice_main.ino |  
 | 13 | Noche de paz | 2 vueltas | 71.0s | Villancicos .ino/Noche de paz_one_voice_main.ino |
 | 14 | We Wish You a Merry Christmas | 1 vuelta | 21.83s | Villancicos .ino/We_Wish_You_a_Merry_Christmas.ino |
+| 15 | Arre Borriquito | 2 vueltas | 174.0s | Villancicos .ino/ARRE_BORRIQUITO_one_voice.ino |
 
 ## Posibles ampliaciones e ideas futuras
 

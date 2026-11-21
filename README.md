@@ -18,7 +18,7 @@
 ![Arduino Projects](./banner.png)
 
 Este repositorio contiene diversos proyectos diferentes categorías realizados con un kit de Arduino. Podrás explorar todos ellos y entender el funcionamiento paso a paso.
-Cada proyecto contiene documentación sobre la la preparación , la configuración, el desarrollo y una demostración del resultado final.
+Cada proyecto contiene documentación sobre la la preparación, la configuración, el desarrollo y una demostración del resultado final.
 
 Si te gusta la electrónica y la programación, este repositorio es perfecto para ti. ¡Diviértete explorando y aprendiendo!
 

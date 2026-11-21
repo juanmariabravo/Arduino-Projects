@@ -91,6 +91,6 @@ Las variables principales son:
 4. Si `playing` es verdadero, se controla el cambio de notas.
 5. Al finalizar todas las notas se para la reproducción y se selecciona la siguiente canción.
 
-## Codigo
+## Código
 
-El programa completo se encuentra en [Integ2 Fuego y Villancicos.ino](./Integ2%20Fuego%20y%20Villancicos.ino). Los archivos de melodías deben permanecer en la misma carpeta.
+El programa completo se encuentra en [Integ2_Fuego_y_Villancicos.ino](./Integ2_Fuego_y_Villancicos.ino). Los archivos de melodías deben permanecer en la misma carpeta.

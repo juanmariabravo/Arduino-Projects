@@ -28,16 +28,16 @@ Belén Navideño
 Para poder utilizar los tres sistemas de manera conjunta, se han creado tres integraciones que combinan los sistemas de manera incremental:
 
 1. [Integración 1: Fuego y Molino](Integ1%20Fuego%20y%20Molino/README.md): fuego con LEDs y motor paso a paso.
-2. [Integración 2: Fuego y Villancicos](Integ2%20Fuego%20y%20Villancicos/README.md): fuego con LEDs y reproducción mediante buzzer y botón.
-3. [Integración 3: Fuego, Molino y Villancicos](Integ3%20Fuego,%20Molino%20y%20Villancicos/README.md): fuego con LEDs, motor paso a paso y reproducción mediante buzzer y botón.
+2. [Integración 2: Fuego y Villancicos](Integ2_Fuego_y_Villancicos/README.md): fuego con LEDs y reproducción mediante buzzer y botón.
+3. [Integración 3: Fuego, Molino y Villancicos](Integ3_Fuego_Molino_y_Villancicos/README.md): fuego con LEDs, motor paso a paso y reproducción mediante buzzer y botón.
 
 El proyecto mantiene las siguientes carpetas:
 ```
 Belén Navideño
 |-- README.md (este archivo)
-|-- Integración 1: Fuego y Molino
-|-- Integración 2: Fuego y Villancicos
-|-- Integración 3: Fuego, Molino y Villancicos
+|-- Integ1 Fuego y Molino
+|-- Integ2_Fuego_y_Villancicos
+|-- Integ3_Fuego_Molino_y_Villancicos
 ```
 
 Los tres sistemas cooperan dentro de un único `loop()` de Arduino. El fuego usa un temporizador de 50 ms, el motor solicita un paso cada 5 ms y el reproductor controla las notas con `millis()` y `tone()`. El botón tiene un antirrebote de 35 ms. De este modo no hay bloqueos largos ni hilos reales: las tareas se comprueban por turno y el resultado se percibe como funcionamiento concurrente.

@@ -80,7 +80,7 @@ Cada nota consulta su frecuencia y duración con `getFrequency()` y `getDuration
 
 El boceto y todos los encabezados deben permanecer juntos:
 
-* [Integ3 Fuego, Molino y Villancicos.ino](./Integ3%20Fuego,%20Molino%20y%20Villancicos.ino)
+* [Integ3_Fuego_Molino_y_Villancicos.ino](./Integ3_Fuego_Molino_y_Villancicos.ino)
 * Los 16 archivos `.h` contenidos en esta carpeta
 
 Arduino IDE necesita que los encabezados estén en la misma carpeta que el archivo `.ino`.

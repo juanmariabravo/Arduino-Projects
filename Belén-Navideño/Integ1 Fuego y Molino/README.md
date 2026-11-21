@@ -61,6 +61,6 @@ La velocidad se configura a 4 RPM, mientras que el bucle solicita un paso cada 5
 4. Cuando vencen 5 ms, se envía un paso al motor.
 5. Las dos comprobaciones se repiten durante toda la ejecución.
 
-## Codigo
+## Código
 
 El programa completo se encuentra en [Integ1 Fuego y Molino.ino](./Integ1%20Fuego%20y%20Molino.ino).

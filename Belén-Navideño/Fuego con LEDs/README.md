@@ -45,3 +45,5 @@ void loop() {
 
 En muchos belenes navideños, se utiliza un solo LED para simular el fuego, ya que el efecto visual puede ser igualmente atractivo y más sencillo de implementar.
 Además, muchos artistas añaden cristales rotos alrededor del LED para crear un efecto de luz más difusa y realista, simulando el brillo de las llamas. Si alguna vez rompes un vaso por accidente, recógelo con cuidado y utilízalo en tu Belén;)
+
+![Fotografía de fuego del Belén](FuegoBelenLEDs.jpeg)

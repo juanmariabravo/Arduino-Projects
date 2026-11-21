@@ -2,6 +2,8 @@
 
 El objetivo de este proyecto es crear elementos que se puedan emplear en un Belén Navideño con luces y movimiento utilizando Arduino. El Belén contará con figuras tradicionales como el Niño Jesús, María, San José, los Reyes Magos, los Pastores y algunos animales. A todo ello se le añadirán luces y movimiento para hacerlo más atractivo y realista.
 
+Puedes ver una demostración del funcionamiento final abriendo el siguiente [vídeo (ábrelo con el navegador web)](Integ3_Fuego_Molino_y_Villancicos\demo.mp4).
+
 ## Objetivos
 
 * Crear fuego parpadeante con LEDs.
@@ -27,7 +29,7 @@ Para poder utilizar los tres sistemas de manera conjunta, se han creado tres int
 
 1. [Integración 1: Fuego y Molino](Integ1%20Fuego%20y%20Molino/README.md): fuego con LEDs y motor paso a paso.
 2. [Integración 2: Fuego y Villancicos](Integ2%20Fuego%20y%20Villancicos/README.md): fuego con LEDs y reproducción mediante buzzer y botón.
-3. [Integración 3: Fuego, Molino y Villancicos](Integ3%20Fuego,%20Molino%20y%20Villancicos/README.md): montaje completo. Su boceto es una copia de [`BelenCompleto.ino`](BelenCompleto/BelenCompleto.ino).
+3. [Integración 3: Fuego, Molino y Villancicos](Integ3%20Fuego,%20Molino%20y%20Villancicos/README.md): fuego con LEDs, motor paso a paso y reproducción mediante buzzer y botón.
 
 El proyecto mantiene las siguientes carpetas:
 ```

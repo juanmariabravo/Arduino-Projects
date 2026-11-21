@@ -1,9 +1,8 @@
 // Reproductor secuencial de villancicos
-// Zumbador pasivo o activo: pin 7
+// Zumbador pasivo: pin 7
 // Botón a GND: pin 2, con INPUT_PULLUP
 // LEDs del fuego: pines 3, 5 y 6
 // Motor ULN2003: pines 8, 9, 10 y 11
-// Potenciómetro del motor: A0
 
 #include <Arduino.h>
 #include <avr/pgmspace.h>
@@ -241,7 +240,6 @@ const uint8_t SONG_COUNT = 16;
 const uint8_t FIRE_LED_1 = 3;
 const uint8_t FIRE_LED_2 = 5;
 const uint8_t FIRE_LED_3 = 6;
-const uint8_t MOTOR_POT_PIN = A0;
 
 const int MOTOR_STEPS_PER_REV = 2048;
 Stepper motorMolino(MOTOR_STEPS_PER_REV, 8, 10, 9, 11);
@@ -375,10 +373,8 @@ void setup() {
   pinMode(FIRE_LED_1, OUTPUT);
   pinMode(FIRE_LED_2, OUTPUT);
   pinMode(FIRE_LED_3, OUTPUT);
-  pinMode(MOTOR_POT_PIN, INPUT);
-
   noTone(BUZZER_PIN);
-  motorMolino.setSpeed(2);
+  motorMolino.setSpeed(4);
 }
 
 void loop() {
@@ -391,8 +387,8 @@ void loop() {
     analogWrite(FIRE_LED_3, random(120, 255));
   }
 
-  int potValue = analogRead(MOTOR_POT_PIN);
-  int motorInterval = map(potValue, 0, 1023, 10, 40);
+
+  int motorInterval = 5;
   if ((uint32_t)(now - motorLastStep) >= (uint32_t)motorInterval) {
     motorLastStep = now;
     motorMolino.step(1);

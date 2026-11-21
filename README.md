@@ -1,80 +1,140 @@
-### Arduino Projects - by Juan María Bravo
+<div align="center">
+
+# Arduino Projects by [@juanmariabravo](https://github.com/juanmariabravo)
+
+### Laboratorio personal de electrónica, programación y automatización
+
+**Colección de proyectos prácticos creados con Arduino UNO, sensores, actuadores y componentes del kit oficial.**
+
+[![Arduino](https://img.shields.io/badge/Arduino-UNO-00979D?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
+[![Language](https://img.shields.io/badge/Lenguaje-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://www.arduino.cc/reference/en/)
+[![IDE](https://img.shields.io/badge/IDE-Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/en/software)
+[![License](https://img.shields.io/badge/Licencia-MIT-yellow?style=for-the-badge)](./LICENSE)
+
+</div>
+
+---
+
+![Arduino Projects](./banner.png)
 
 Este repositorio contiene diversos proyectos diferentes categorías realizados con un kit de Arduino. Podrás explorar todos ellos y entender el funcionamiento paso a paso.
 Cada proyecto contiene documentación sobre la la preparación , la configuración, el desarrollo y una demostración del resultado final.
 
 Si te gusta la electrónica y la programación, este repositorio es perfecto para ti. ¡Diviértete explorando y aprendiendo!
 
-De momento puedes encontrar los siguientes proyectos:
 
-| Proyecto | Tipo | Descripción | Dificultad | Estado |
-|----------|------|-------------|------------|--------|
-| [Semáforo](./Semáforo) | Control | Controla un semáforo utilizando Arduino y LEDs. | Fácil | Completado |
-| [Medidor de resistencias](./Medidor-Resistencias) | Instrumentación | Mide el valor de resistencias desconocidas utilizando un divisor de tensión. | Media | Completado |
-| [Belén Navideño](./Belén-Navideño) | Ocio | Crea elementos de un Belén Navideño con luces, sonido y movimiento utilizando Arduino. | Media | En progreso |
-| [Cerradura inteligente](./Cerradura-inteligente) | Seguridad | Sistema de acceso con doble factor de autenticación (RFID + PIN). | Media | En progreso |
-| [Alarma antirrobo](./Alarma-antirrobo) | Seguridad | Sistema de alarma volumétrica y perimetral con sensores y zumbador. | Media | En progreso |
-| [Detector de incendios](./Detector-incendios) | Seguridad | Sistema de detección y alarma de incendios con sensor de llama. | Media | En progreso |
-| [Estación meteorológica](./Estación-meteorológica) | Domótica | Mide temperatura, humedad y luz ambiental, mostrando los datos en una pantalla LCD. | Media | En progreso |
-| [Cierre automático de ventanas](./Cierre-automático-ventanas) | Domótica | Sistema que cierra automáticamente una ventana al detectar lluvia. | Media | En progreso |
-| [Reloj despertador digital](./Reloj-despertador-digital) | Domótica | Reloj con alarma programable y visualización en display de 7 segmentos. | Media | En progreso |
-| [Persiana domótica fotosensible](./Persiana-domótica-fotosensible) | Domótica | Controla la apertura y cierre de una persiana según la luz ambiental. | Media | En progreso |
-| [Luz de lectura crepuscular inteligente](./Luz-lectura-crepuscular-inteligente) | Domótica | Iluminación automática y regulable según la luz ambiental. | Media | En progreso |
-| [Minijuegos retro en matriz LED 8x8](./Minijuegos-retro-matriz-LED-8x8) | Ocio | Juegos clásicos como Snake y Pong en una matriz LED. | Media | En progreso |
-| [Juego de memoria acústico-visual](./Juego-memoria-acústico-visual) | Ocio | Juego tipo "Simon Dice" con LED RGB y zumbador. | Media | En progreso |
-| [Control robótico Pan & Tilt de cámara](./Control-robótico-Pan-Tilt-cámara) | Ocio | Controla la posición de una cámara o puntero láser con servomotores y joystick. | Media | En progreso |
-| [Tacómetro / Contador óptico](./Tacómetro-Contador-óptico) | Instrumentación | Mide revoluciones por minuto utilizando un sensor óptico y muestra los datos en pantalla. | Media | En progreso |
-| [Termostato digital con histéresis](./Termostato-digital-histéresis) | Instrumentación | Controla la temperatura de una carga térmica mediante un sensor y un relé. | Media | En progreso |
-| [Control de riego automático](./Control-riego-automático) | Domótica | Sistema de riego que se activa según la humedad del suelo y la programación horaria. | Media | En progreso |
+> **18 áreas de proyecto** para aprender electrónica desde cero: medir, controlar, automatizar, detectar y jugar.
 
-## Detalle de los proyectos
+## 🎯 Qué encontrarás aquí
 
-### Seguridad y Control de Acceso
+| Concepto | Aplicación |
+|:---|:---|
+| ⚡ Electrónica básica | Resistencias, LEDs, relés, motores y protoboard |
+| 🌡️ Sensores | Temperatura, luz, llama, lluvia, inclinación y humedad |
+| 🧠 Lógica y control | Estados, temporizadores, histéresis y entradas digitales |
+| 🔔 Interacción física | Displays, teclados, mandos IR, RGB y zumbadores |
+| 🤖 Automatización | Ventanas, persianas, riego, luces y alarmas |
 
-* **Cerradura inteligente con doble factor de autenticación (RFID + PIN)**: Sistema de acceso donde el usuario pasa la tarjeta RFID y luego introduce un código de 4 dígitos en el teclado matricial. Si es correcto, un servomotor abre el cerrojo, el LED RGB se pone en verde y la pantalla LCD muestra un mensaje de bienvenida; si falla, suena el zumbador y el LED se ilumina en rojo.
+## 🗂️ Explora los proyectos
 
+### ✅ Completados
 
-* **Alarma antirrobo volumétrica y perimetral**: Utiliza el sensor de inclinación SW-520D para detectar vibraciones o aperturas no autorizadas y el módulo de sonido para detectar ruidos fuertes. Al dispararse, activa el relé (encendiendo una luz de potencia) y hace sonar una sirena modulada con el zumbador. Se desarma con el mando a distancia IR o un llavero RFID.
+| Proyecto | ¿Qué demuestra? | Recursos |
+|:---|:---|:---|
+| [🚦 Semáforo](./Semáforo) | Máquina de estados, botón peatonal y temporización con `millis()` | Esquema · Diagrama · Wokwi |
+| [📏 Medidor de resistencias](./Medidor-Resistencias) | Divisor de tensión y cálculo de resistencias desconocidas | Esquema · Código |
+| [🎄 Belén Navideño](./Belén-Navideño) | Integración progresiva de fuego, motor y villancicos | README · 6 módulos · Vídeo |
 
+### 🛡️ Seguridad y control
 
-* **Detector y alarma de incendios**: Emplea el fotodiodo sensor de llama YG1006 para detectar fuego de forma instantánea. Al detectar radiación infrarroja, activa una señal acústica en el zumbador, muestra una advertencia en el display de 4 dígitos y conmuta el relé para desconectar una línea eléctrica o activar un extractor.
+| Proyecto | Aplicación |
+|:---|:---|
+| [🔐 Cerradura inteligente](./Cerradura-inteligente) | Acceso mediante RFID y PIN |
+| [🚨 Alarma antirrobo](./Alarma-antirrobo) | Detección perimetral y volumétrica |
+| [🔥 Detector de incendios](./Detector-incendios) | Sensor de llama y activación de alarma |
 
+### 🏠 Domótica y automatización
 
-### Domótica y Automatización del Hogar
+| Proyecto | Aplicación |
+|:---|:---|
+| [🌦️ Estación meteorológica](./Estación-meteorológica) | Temperatura, luz y datos en LCD |
+| [🌧️ Cierre automático de ventanas](./Cierre-automático-ventanas) | Respuesta automática ante lluvia |
+| [⏰ Reloj despertador digital](./Reloj-despertador-digital) | RTC, display de 7 segmentos y alarmas |
+| [🪟 Persiana fotosensible](./Persiana-domótica-fotosensible) | Control luminoso con motor paso a paso |
+| [💡 Luz de lectura inteligente](./Luz-lectura-crepuscular-inteligente) | Iluminación crepuscular regulable |
+| [🌱 Control de riego](./Control-riego-automático) | Activación según humedad y horario |
 
-* **Estación meteorológica doméstica**: Lee datos ambientales de temperatura y humedad con el sensor DHT11 y la luz ambiental con la fotorresistencia LDR. Muestra los valores alternados en la pantalla LCD 16x2 mediante el bus I2C y, si la temperatura supera un umbral, enciende un ventilador conectado al módulo de relé.
+### 🎮 Ocio e interacción
 
+| Proyecto | Aplicación |
+|:---|:---|
+| [👾 Minijuegos retro](./Minijuegos-retro-matriz-LED-8x8) | Snake y Pong en matriz LED 8×8 |
+| [🧠 Juego de memoria](./Juego-memoria-acústico-visual) | Secuencias visuales y acústicas |
+| [📹 Pan-Tilt robótico](./Control-robótico-Pan-Tilt-cámara) | Posicionamiento de cámara con servo y joystick |
 
-* **Cierre automático de ventanas por lluvia**: El sensor resistivo de gotas detecta las primeras precipitaciones. Mediante el servomotor SG90 o el motor paso a paso 28BYJ-48 con su placa ULN2003, acciona un brazo mecánico para cerrar una compuerta o ventana simulada, mostrando el estado en la LCD.
+### 🔬 Instrumentación
 
+| Proyecto | Aplicación |
+|:---|:---|
+| [📐 Tacómetro óptico](./Tacómetro-Contador-óptico) | Medida de revoluciones por minuto |
+| [🌡️ Termostato con histéresis](./Termostato-digital-histéresis) | Control estable de temperatura |
+| [📚 Fundamentos](./Fundamentos) | Resistencias, bandas de color y protoboard |
 
-* **Reloj despertador digital programable**: Emplea el módulo RTC DS1302 para mantener la fecha y hora reales de manera continua. La hora se visualiza en el display de 7 segmentos de 4 dígitos (con los dos puntos parpadeando a 1 Hz). Se pueden ajustar las alarmas mediante el teclado matricial 4x4 o el mando a distancia IR, sonando con el zumbador.
+## 🔧 Tecnologías y componentes habituales
 
+`Arduino UNO` · `C++` · `Arduino IDE` · `Sensores analógicos` · `I²C`
 
-* **Persiana domótica fotosensible**: Utiliza la LDR para medir el nivel de luz solar y el motor paso a paso 28BYJ-48 para subir o bajar la persiana de forma gradual según la iluminación exterior o según órdenes recibidas desde el mando IR.
+`DHT11` · `LDR` · `LM35` · `LED` · `LCD 16×2` · `RTC` · `RFID`
 
+`Servomotores` · `Motores paso a paso` · `Relés` · `Buzzer` · `Matriz 8×8`
 
-* **Luz de lectura crepuscular inteligente**: Con el transistor y la LDR, enciende automáticamente iluminación tenue cuando cae la noche. Con el potenciómetro o el mando IR se calibra la sensibilidad lumínica o el color del LED RGB.
+## 🚀 Cómo empezar
 
+1. Instala el [Arduino IDE](https://www.arduino.cc/en/software).
+2. Elige un proyecto y abre su carpeta.
+3. Consulta el `README.md` y el esquema de conexiones.
+4. Abre el archivo `.ino` desde el Arduino IDE.
+5. Selecciona la placa **Arduino UNO** y el puerto serie correspondiente.
+6. Compila, carga el programa y prueba el montaje.
 
-### Ocio, Juegos e Interfaces Interactivas
+## 🧭 Hoja de ruta
 
-* **Minijuegos retro en matriz LED 8x8**:
-* **Snake (La serpiente)**: Controla el movimiento de la serpiente utilizando el joystick analógico de 2 ejes, generando comida aleatoria en la matriz de puntos y emitiendo pitidos con el zumbador al comer o chocar.
+- [ ] Completar la documentación de los proyectos pendientes
+- [ ] Incorporar esquemas y fotografías finales
+- [ ] Añadir simulaciones Wokwi a más proyectos
+- [ ] Normalizar nombres de carpetas y convenciones de código
+- [ ] Añadir pruebas de montaje y listas de componentes
 
+## 📦 Estructura del repositorio
 
-* **Pong de un jugador**: Mueve la pala en la fila inferior con el potenciómetro analógico mientras una bola rebota por los bordes de la matriz 8x8.
+```text
+Arduino-Projects/
+├── Fundamentos/
+├── Semáforo/
+├── Medidor-Resistencias/
+├── Belén-Navideño/
+├── Cerradura-inteligente/
+├── Alarma-antirrobo/
+├── Detector-incendios/
+├── Estación-meteorológica/
+├── Cierre-automático-ventanas/
+├── Reloj-despertador-digital/
+├── Persiana-domótica-fotosensible/
+├── Luz-lectura-crepuscular-inteligente/
+├── Control-riego-automático/
+├── Minijuegos-retro-matriz-LED-8x8/
+├── Juego-memoria-acústico-visual/
+├── Control-robótico-Pan-Tilt-cámara/
+├── Tacómetro-Contador-óptico/
+└── Termostato-digital-histéresis/
+```
 
+<div align="center">
 
-* **Juego de memoria acústico-visual (tipo *Simon Dice*)**: El sistema genera una secuencia de colores con el LED RGB y tonos en el zumbador. El jugador debe replicar la combinación exacta pulsando los botones táctiles del teclado matricial 4x4 o los pulsadores de la protoboard, mostrando la puntuación en el display de 7 segmentos.
+### Licencia
 
+Este proyecto está publicado bajo la [Licencia MIT](./LICENSE).
 
-* **Control robótico Pan & Tilt de cámara con joystick**: Monta los dos servomotores SG90 en configuración horizontal (paneo) y vertical (inclinación) para posicionar un soporte o puntero láser controlándolo en tiempo real con los ejes X e Y del joystick.
+**Diseñado para aprender, experimentar y seguir construyendo.**
 
-
-### Instrumentación y Medida
-
-* **Tacómetro / Contador óptico**: Utiliza el LED negro receptor IR y un LED emisor para crear una barrera óptica; al ser interrumpida por las aspas de un ventilador o una rueda ranurada, cuenta revoluciones por minuto y las proyecta en la pantalla LCD 16x2 o en el display de 4 dígitos.
-
-
-* **Termostato digital con histéresis**: Emplea el sensor de temperatura analógico TO-92 (LM35) para medir la temperatura con precisión decimal y regular el encendido/apagado de una carga térmica mediante el módulo de relé, fijando los límites deseados con el teclado 4x4.
+</div>

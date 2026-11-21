@@ -15,6 +15,14 @@ El objetivo principal de este proyecto es la implementación de 3 sistemas indep
 
 ## Listado de Villancicos Buzzer
 
+El archivo `VillancicosPlay.ino` reproduce secuencialmente los 16 villancicos de la tabla. Conecta el zumbador al pin 8, el botón entre el pin 2 y GND y utiliza `INPUT_PULLUP`, por lo que no hace falta resistencia externa.
+
+En Arduino IDE, abre [VillancicosPlay/VillancicosPlay.ino](VillancicosPlay/VillancicosPlay.ino). Esta carpeta ya contiene todas las melodías como archivos `.h` junto al boceto principal, por lo que no depende de subcarpetas ni de rutas externas.
+
+* Primera pulsación: comienza el villancico actual.
+* Pulsación durante la reproducción: detiene la melodía. La siguiente pulsación reproducirá el siguiente villancico.
+* Pulsación cuando hay silencio: reproduce el siguiente villancico.
+
 | Índice | Título | N vueltas | Duración | Ruta |
 | --- | --- | --- | --- | --- |
 | 0 | Din Don Dilin Din Dan | 1 vuelta | 40.23s | Villancicos .ino/Dindon_dilindindan.ino |

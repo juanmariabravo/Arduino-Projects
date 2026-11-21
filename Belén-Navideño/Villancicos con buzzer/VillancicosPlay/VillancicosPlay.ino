@@ -1,5 +1,5 @@
 // Reproductor secuencial de villancicos
-// Zumbador pasivo o activo: pin 8
+// Zumbador pasivo: pin 7
 // Botón a GND: pin 2, con INPUT_PULLUP
 
 #include <Arduino.h>
@@ -231,7 +231,7 @@
 #undef setup
 
 const uint8_t BUTTON_PIN = 2;
-const uint8_t BUZZER_PIN = 8;
+const uint8_t BUZZER_PIN = 7;
 const uint8_t SONG_COUNT = 16;
 
 uint8_t currentSong = 0;

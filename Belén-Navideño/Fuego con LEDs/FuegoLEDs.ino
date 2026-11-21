@@ -1,7 +1,7 @@
 // Pines PWM para los LEDs de la hoguera
-const int ledPin1 = 3; // LED Amarillo / Naranja
-const int ledPin2 = 5; // LED Rojo (brasa base)
-const int ledPin3 = 6; // LED Naranja
+const int ledPin1 = 3;
+const int ledPin2 = 5;
+const int ledPin3 = 6; 
 
 void setup() {
   pinMode(ledPin1, OUTPUT);
